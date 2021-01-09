@@ -66,7 +66,7 @@ function main() {
 
   {
     const gltfLoader = new GLTFLoader();
-    gltfLoader.load('datoteke/pipistrelv3-dec0.05-autosmooth10d-compresion2.gltf', (gltf) => {
+    gltfLoader.load('datoteke/pipistrelv3-dec0.05-autosmooth10d.gltf', (gltf) => {
       const root = gltf.scene;
       scene.add(root);
 
