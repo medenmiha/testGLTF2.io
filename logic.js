@@ -20,10 +20,7 @@ function main() {
   const scene = new THREE.Scene();
   scene.background = new THREE.Color('black');
 
-  var action = mixer.clipAction(gltf.animations[1]);
-  action.setLoop( THREE.LoopOnce );
-  action.play();
-
+  
   
   {
     const skyColor = 0xB1E1FF;  // light blue
