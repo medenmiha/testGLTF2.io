@@ -68,11 +68,7 @@ function main() {
     gltfLoader.load('datoteke/pant12.gltf', (gltf) => {
       const root = gltf.scene;
       scene.add(root);
-      var model = gltf.scene;
-      var mixer = new THREE.AnimationMixer(model);
-      var clip1 = gltf.animations[1];
-      var action1 = mixer.clipAction(clip1);
-      action1.play();
+    
 
       // compute the box that contains all the stuff
       // from root and below
