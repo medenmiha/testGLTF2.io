@@ -70,7 +70,7 @@ function main() {
       scene.add(root);
       var model = gltf.scene;
       var mixer = new THREE.AnimationMixer(model);
-      var clip1 = gltf.animations[0];
+      var clip1 = gltf.animations[1];
       var action1 = mixer.clipAction(clip1);
       action1.play();
 
